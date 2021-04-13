@@ -1,5 +1,6 @@
 <?php
 
+  // This is our books view page
   // If they're not logged in, redirect them
   if (session_status() === PHP_SESSION_NONE) session_start();
   if (!isset($_SESSION['user'])) {
